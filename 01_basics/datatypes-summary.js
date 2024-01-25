@@ -86,3 +86,29 @@ const myFunction = function(){
 
 */
 
+
+
+//***********************************************
+
+//   Stack(Primitive), Heap(Non-Primitive)
+
+let myName = "Subhajit";
+
+let anotherName = myName;
+anotherName = "subha";
+
+// console.log(myName);
+// console.log(anotherName);
+
+
+let userOne = {
+    email:"subhajitbasanta@gmail.com",
+    upi:"user@paytm"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "basantasubhajit@gmail.com";
+console.log(userOne.email);
+console.log(userTwo.email);
+
