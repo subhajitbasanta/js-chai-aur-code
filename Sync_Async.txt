@@ -1,0 +1,17 @@
+JavaScript  :   1.Synchronous
+                2.Single Threaded
+
+
+Execution Context : Execute one line of code at a time
+  
+  console.log(1) ----> 1        Each operation waits for The last
+  console.log(2) ----> 2        one to complete before executing
+
+  Call Stack           Memory Heap
+
+
+Blocking Code          vs          Non Blocking Code
+ 
+Block the flow of program          Does not block Execution
+
+Read File Sync                     Read File Async
